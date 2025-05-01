@@ -49,7 +49,7 @@ const makeGogoAnimeObj = (gogoanime_base: string): GogoAnimeConfig => {
     NEW_SEASON: `${gogoanime_base}/new-season.html`,
     SEASONS: `${gogoanime_base}/sub-category/`,
     COMPLETED: `${gogoanime_base}/completed-anime.html`,
-    AJAX: "https://ajax.gogocdn.net/ajax",
+    AJAX: `${gogoanime_base}/ajax`,
   };
 };
 
